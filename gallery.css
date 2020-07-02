@@ -1,4 +1,4 @@
-body .container{
+body{
     background-image: url("desk.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -7,18 +7,24 @@ body .container{
     width: 100%;
     font-family: 'Arial','Times New Roman','Courier New', Courier, monospace;
     color: gray;
+    padding-top: 70px;
 }
 *{
     box-sizing: border-box;
 }
+.container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 .jumbotron img{
     border-radius: 50%;
-    margin-top:70px;
+   
 }
 h1{
     color: gray;
 }
-.section{
+#section{
     margin:10px;
 }
 .projects{

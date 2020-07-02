@@ -1,8 +1,22 @@
 body{
     background-image: url("desk.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
     color:gray;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 70px;
+    height: 100%;
+    width: 100%; 
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%; 
+    position: absolute;
+    color: gray;  
 }
 .jumbotron img{
     border-radius: 50%;
@@ -14,4 +28,7 @@ body{
 .project a:hover{
     color:brown;
     text-decoration: none;
+}
+.last{
+    margin-left: 8px;
 }

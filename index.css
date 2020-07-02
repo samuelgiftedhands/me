@@ -1,6 +1,6 @@
 body,html{
     height: 100%;
-    font-family: 'Arial','Times New Roman','Courier New', Courier, monospace;
+    font-family: 'Arial','Times New Roman','Courier New', 'Courier', 'monospace';
     text-align: left;
 }
 *{
@@ -8,8 +8,6 @@ body,html{
 }
 .bodyframe{
     background-image: url("desk.jpg");
-    background-color:transparent;
-    background-blend-mode: color-burn;
     height: 100%;
     width: 100%;
     background-attachment: fixed;
@@ -23,7 +21,7 @@ body,html{
     position: absolute;
     top: 50px; 
     z-index: 3; 
-    align-content: justify;  
+    text-align: left;  
     color:gray;     
     margin: 0 auto;
 }
