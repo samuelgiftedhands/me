@@ -1,0 +1,37 @@
+body .container{
+    background-image: url("desk.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial','Times New Roman','Courier New', Courier, monospace;
+    
+    color: gray;
+}
+*{
+    box-sizing: border-box;
+}
+.jumbotron img{
+    border-radius: 50%;
+    margin-top:70px;
+}
+h1{
+    color: gray;
+}
+.section{
+    margin:10px;
+}
+.projects{
+    text-align:justify;
+}
+.last {
+    margin-left: 8px;
+}
+.last a{
+    color: palevioletred;
+}
+.last a:hover{
+    text-decoration: none;
+    color:red;
+}

@@ -1,0 +1,17 @@
+body{
+    background-image: url("desk.jpg");
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+}
+.jumbotron img{
+    border-radius: 50%;
+}
+.project a{
+    color:palevioletred;
+    text-decoration: none;
+}
+.project a:hover{
+    color:brown;
+    text-decoration: none;
+}
