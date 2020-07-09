@@ -8,6 +8,7 @@ body{
     font-family: 'Arial','Times New Roman','Courier New', Courier, monospace;
     color: gray;
     padding-top: 70px;
+    font-size: 15px;
 }
 *{
     box-sizing: border-box;

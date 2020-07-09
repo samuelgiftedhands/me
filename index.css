@@ -1,7 +1,8 @@
 body,html{
     height: 100%;
     font-family: 'Arial','Times New Roman','Courier New', 'Courier', 'monospace';
-    text-align: left;
+    font-size: 15px;
+    
 }
 *{
     box-sizing: border-box;
@@ -28,6 +29,9 @@ body,html{
 .inner{
     margin-left: 8px;
 }
+.btn{
+    border-radius: 2rem;
+}
 .btn a{
     color: white;
 }
@@ -37,6 +41,9 @@ body,html{
     height: 200px;
     width: 180px;
     border-radius: 50%;   
+}
+input{
+    border-radius: 1rem;
 }
 a{
     color:palevioletred;
